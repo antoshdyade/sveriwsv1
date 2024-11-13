@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programs - SVERI's College of Engineering</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .full-width-image {
+            width: 100%;
+            height: 300px; /* Adjust height as needed */
+            background: url('path/to/your-image.jpg') no-repeat center center;
+            background-size: cover;
+        }
+
+        .side-menu {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .content-section {
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="path/to/logo.png" alt="Logo" style="height: 40px; width: auto; margin-right: 10px;">
+                SVERI's College of Engineering
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="programs.html">Programs</a></li>
+                    <li class="nav-item"><a class="nav-link" href="admissions.html">Admissions</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Full-Width Image -->
+    <div class="full-width-image"></div>
+
+    <!-- Main Content with Side Menu -->
+    <div class="container my-4">
+        <div class="row">
+            <!-- Side Menu -->
+            <aside class="col-md-3 side-menu">
+                <h4>Programs</h4>
+                <ul class="list-group">
+                    <li class="list-group-item"><a href="cse.html">Computer Science & Engineering</a></li>
+                    <li class="list-group-item"><a href="civil.html">Civil Engineering</a></li>
+                    <li class="list-group-item"><a href="mechanical.html">Mechanical Engineering</a></li>
+                    <li class="list-group-item"><a href="electronics.html">Electronics Engineering</a></li>
+                </ul>
+            </aside>
+
+            <!-- Main Content Area -->
+            <section class="col-md-9 content-section">
+                <h1>Programs Overview</h1>
+                <p>Welcome to the Programs page. Explore various departments and their offerings. Select a program from the side menu to learn more about its courses, faculty, and research opportunities.</p>
+            </section>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4">
+        <p>&copy; 2024 SVERI's College of Engineering. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
